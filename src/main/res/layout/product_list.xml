@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20605D5D"
+    android:backgroundTint="#6A5C5C"
+    android:orientation="vertical"
+    android:padding="30sp">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="PRODUCTO:"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/viewButton"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/purple_500"
+            android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+            android:text="View"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:cornerRadius="20dp" />
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

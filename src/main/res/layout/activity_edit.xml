@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".activities.EditActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="product name"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/priceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="product price"
+        android:inputType="number"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="150sp"
+        android:backgroundTint="@color/orange"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:padding="15dp"
+        android:text="Editar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="50dp" />
+
+</LinearLayout>
