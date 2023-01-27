@@ -24,7 +24,11 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class CreateActivity extends AppCompatActivity {
+public class
+
+
+
+CreateActivity extends AppCompatActivity {
 
     EditText nameText;
     EditText priceText;
